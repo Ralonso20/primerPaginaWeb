@@ -14,6 +14,7 @@ header{
     background-size: 100% 100%;
     height: 100vh;
     color: white;
+
 }
 
 #main-container header #menu{
@@ -29,4 +30,20 @@ header #menu ul li{
     display: inline-block;
     padding: 10px;
     vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: #a4b0be;
+    text-decoration: none;
+}
+
+/*con el atributo hover implementamos un atributo de estado cuando el cursor este sobre nuestro link*/
+
+header #menu ul li a:hover{ 
+    color: #1e272e;
+}
+
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
 }
